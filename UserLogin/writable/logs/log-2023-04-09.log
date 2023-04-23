@@ -1,0 +1,67 @@
+CRITICAL - 2023-04-09 00:41:20 --> Undefined property: CodeIgniter\View\View::$my_model
+#0 C:\xampp\htdocs\UserLogin\app\Views\site\chat.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\UserLogin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UserLogin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UserLogin\system\Common.php(1089): CodeIgniter\View\View->render('site/chat', Array, true)
+#4 C:\xampp\htdocs\UserLogin\app\Controllers\Dashboard.php(35): view('site/chat', Array)
+#5 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(832): App\Controllers\Dashboard->chat()
+#6 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-09 00:42:23 --> Class "My_Model" not found
+#0 C:\xampp\htdocs\UserLogin\app\Views\site\chat.php(1): include()
+#1 C:\xampp\htdocs\UserLogin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UserLogin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UserLogin\system\Common.php(1089): CodeIgniter\View\View->render('site/chat', Array, true)
+#4 C:\xampp\htdocs\UserLogin\app\Controllers\Dashboard.php(35): view('site/chat', Array)
+#5 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(832): App\Controllers\Dashboard->chat()
+#6 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-09 01:09:27 --> Unmatched ')'
+#0 C:\xampp\htdocs\UserLogin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\UserLogin\system\Common.php(1089): CodeIgniter\View\View->render('site/product', Array, true)
+#2 C:\xampp\htdocs\UserLogin\app\Controllers\Home.php(10): view('site/product', Array)
+#3 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-09 01:25:03 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\UserLogin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\UserLogin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-09 01:26:50 --> Undefined variable $user_id
+#0 C:\xampp\htdocs\UserLogin\app\Controllers\Profile.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-09 01:26:53 --> Undefined variable $user_id
+#0 C:\xampp\htdocs\UserLogin\app\Controllers\Profile.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#2 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-09 03:43:14 --> Unknown column 'name' in 'field list'
+CRITICAL - 2023-04-09 03:43:14 --> Unknown column 'name' in 'field list'
+#0 C:\xampp\htdocs\UserLogin\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `chat` S...', 0)
+#1 C:\xampp\htdocs\UserLogin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `chat` S...')
+#2 C:\xampp\htdocs\UserLogin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `chat` S...')
+#3 C:\xampp\htdocs\UserLogin\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `chat` S...', Array, false)
+#4 C:\xampp\htdocs\UserLogin\app\Models\My_Model.php(59): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\UserLogin\app\Controllers\Profile.php(63): App\Models\My_Model->UpdateData('chat', Array, Array)
+#6 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(832): App\Controllers\Profile->update_user()
+#7 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#8 C:\xampp\htdocs\UserLogin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\UserLogin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
